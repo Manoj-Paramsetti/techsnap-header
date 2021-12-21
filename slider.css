@@ -80,7 +80,8 @@
 
     .nav-footer-row-1 ul a{
         font-size: 12px;
-        color: #999;
+        color: #111111;
+        text-decoration: none;
     }
 
     .mob-nav-blocks{
