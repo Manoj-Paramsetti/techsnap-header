@@ -1,12 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mob-nav{
     display: none;
+}
+
+.nav-bar-desktop {
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+}
+.desk-nav-frame {
+    max-width: 1200px;
+    min-width: 600px;
+    width: 1200px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.desk-nav-frame li {
+    padding-top: 20px;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.desk-nav-frame .login {
+    height: 30px;
+    width: 90px;
+    margin-top: 14px;
+    margin-right: 12px;
+    list-style: none;
+    color: #FC00BD;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FFF;
+    border: 2px solid #FC00Db;
+    border-radius: 5px;
+}
+
+.desk-nav-frame .register {
+    height: 30px;
+    width: 90px;
+    margin-top: 14px;
+    list-style: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FC00Db;
+    border: 2px solid #FC00Db;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 600px) {
