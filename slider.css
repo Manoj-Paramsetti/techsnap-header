@@ -27,6 +27,7 @@
         height: 100vh;
         background-color: white;
         position: fixed;
+        top: 0;
         left: 0vw;
         display: none;
         animation: slide 1s ease-in-out;
@@ -126,6 +127,7 @@
         background-color: white;
         position: fixed;
         display: none;
+        top: 0;
         left: 0vw;
         animation: slide 1s ease-in-out;
     }
@@ -161,6 +163,7 @@
         height: 100vh;
         background-color: white;
         position: fixed;
+        top: 0;
         left: 0vw;
         display: none;
         animation: slide 1s ease-in-out;
@@ -171,6 +174,7 @@
         height: 100vh;
         background-color: white;
         position: fixed;
+        top: 0;
         left: 0vw;
         display: none;
         animation: slide 1s ease-in-out;
@@ -181,6 +185,7 @@
         height: 100vh;
         background-color: white;
         position: fixed;
+        top: 0;
         left: 0vw;
         display: none;
         animation: slide 1s ease-in-out;
