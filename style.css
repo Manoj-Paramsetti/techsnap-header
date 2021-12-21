@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mob-nav{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Start of Mobile Nav Bar */
+    .mob-nav{
+        width: 100vw;
+        height: 60px;
+        background-color: #232323;
+        position: fixed;
+        top: 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .mob-nav-frame {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+    }
+
+    .mob-nav-frame-left {
+        padding-left: 10px;
+    }
+
+    .mob-nav-frame-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 18px;
+    }
+    /* End of Mobile Nav Bar */
+}
